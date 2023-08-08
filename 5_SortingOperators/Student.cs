@@ -1,4 +1,4 @@
-﻿public class Student
+﻿public class Student : IComparable
 {
     public int RollNumber { get; set; }
     public string Name { get; set; }
@@ -24,5 +24,25 @@
             Console.WriteLine($"Roll Number : {student.RollNumber} Name : {student.Name}" +
                 $" Gender : {student.Gender} Age : {student.Age}");
         }
+    }
+
+    public int CompareTo(object? obj)
+    {
+        Student s = obj as Student;
+
+        //if(this.Age < s.Age)
+        //{
+        //    return 1;
+        //}
+        //else if (this.Age > s.Age)
+        //{
+        //    return -1;
+        //}
+        //else
+        //{
+        //    return 0;
+        //}
+
+        return this.Age.CompareTo(s.Age);
     }
 }

@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_WhyLinq", "1_WhyLinq\1_Wh
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2_ExtensionMethods", "2_ExtensionMethods\2_ExtensionMethods.csproj", "{7B7C706B-DF52-4124-913F-9D93BB5A976E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_FilteringOperators", "3_FilteringOperators\3_FilteringOperators.csproj", "{9898159C-C8E2-4145-97DB-8C9F778E46D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_FilteringOperators", "3_FilteringOperators\3_FilteringOperators.csproj", "{9898159C-C8E2-4145-97DB-8C9F778E46D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_GroupingOperators", "4_GroupingOperators\4_GroupingOperators.csproj", "{1A76D34D-D84A-47F8-A4DB-97E7BD7E0165}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_GroupingOperators", "4_GroupingOperators\4_GroupingOperators.csproj", "{1A76D34D-D84A-47F8-A4DB-97E7BD7E0165}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_SortingOperators", "5_SortingOperators\5_SortingOperators.csproj", "{3D524105-A058-4D4F-BF86-EAFF3E26DE1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_SortingOperators", "5_SortingOperators\5_SortingOperators.csproj", "{3D524105-A058-4D4F-BF86-EAFF3E26DE1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_ProjectionOperators", "6_ProjectionOperators\6_ProjectionOperators.csproj", "{478733DE-C5FD-4FB2-8A05-9D92AD942DC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{3D524105-A058-4D4F-BF86-EAFF3E26DE1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D524105-A058-4D4F-BF86-EAFF3E26DE1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D524105-A058-4D4F-BF86-EAFF3E26DE1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{478733DE-C5FD-4FB2-8A05-9D92AD942DC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{478733DE-C5FD-4FB2-8A05-9D92AD942DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{478733DE-C5FD-4FB2-8A05-9D92AD942DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{478733DE-C5FD-4FB2-8A05-9D92AD942DC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
